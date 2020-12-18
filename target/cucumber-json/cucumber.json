@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-18T06:39:26.977Z",
+        "line": 2,
+        "name": "Login Functionality",
+        "description": "",
+        "id": "login;login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9581000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user navigate to facebook homepage",
+            "match": {
+              "location": "stepdefinations.LoginTest.user_navigate_to_facebook_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 443000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters username as \"Venkateshnani23\" and password as \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Venkateshnani23",
+                  "offset": 25
+                },
+                {
+                  "val": "password",
+                  "offset": 59
+                }
+              ],
+              "location": "stepdefinations.LoginTest.user_enters_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 141000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "stepdefinations.LoginTest.user_clicks_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6948000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should be login into facebook successfuly",
+            "match": {
+              "location": "stepdefinations.LoginTest.user_should_be_login_into_facebook_successfuly()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/login.feature",
+    "tags": []
+  }
+]
