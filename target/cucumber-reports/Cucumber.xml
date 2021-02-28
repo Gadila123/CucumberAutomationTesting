@@ -1,2 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" time="0.267"/>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="30.886">
+<testcase classname="Login Feature" name="Login Test Scenario" time="16.1">
+<system-out><![CDATA[Given user is already on Login Page.........................................passed
+When title of login page is QA Fake.........................................passed
+Then user enters "admin" and "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cnlhQHNraWxsZW56YS5jb20iLCJpYXQiOjE2MTEzMTc2Njh9.HVMcJZZJh8_EAhB_mcSeGLfZZarE5ZgnEgbbAxSu99g".passed
+Then user checked rember me.................................................passed
+Then user clicks on login button............................................passed
+Then user get the secret string on home screen..............................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Feature" name="Login Test Scenario 2" time="14.279">
+<system-out><![CDATA[Given user is already on Login Page.........................................passed
+When title of login page is QA Fake.........................................passed
+Then user enters "admin" and "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cnlhQHNraWxsZW56YS5jb20iLCJpYXQiOjE2MTEzMTc2Njh9.HVMcJZZJh8_EAhB_mcSeGLfZZarE5ZgnEgbbAxSu99g".passed
+Then user checked rember me.................................................passed
+Then user clicks on login button............................................passed
+Then user get the secret string on home screen..............................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

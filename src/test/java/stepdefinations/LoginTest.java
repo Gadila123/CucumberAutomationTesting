@@ -24,20 +24,20 @@ public class LoginTest {
 
 	@When("^user enters username as \"([^\"]*)\" and password as \"([^\"]*)\"$")
 	public void user_enters_username_as_and_password_as(String username, String password) throws Throwable {
-		WebElement usname = driver.findElement(By.id("email"));
+		WebElement usname = driver.findElement(By.id("username"));
 		usname.clear();
 		usname.sendKeys(username);
-		WebElement pword = driver.findElement(By.id("pass"));
+		WebElement pword = driver.findElement(By.id("password"));
 		pword.clear();
 		pword.sendKeys(password);
 	}
 
-	@When("^user clicks on login button$")
-	public void user_clicks_on_login_button() throws Throwable {
-		WebElement loginButton = driver.findElement(By.name("login"));
-		loginButton.click();
-
-	}
+//	@When("^user clicks on login button$")
+//	public void user_clicks_on_login_button() throws Throwable {
+//		WebElement loginButton = driver.findElement(By.name("login"));
+//		loginButton.click();
+//
+//	}
 
 	@Then("^user should be login into facebook successfuly$")
 	public void user_should_be_login_into_facebook_successfuly() throws Throwable {
