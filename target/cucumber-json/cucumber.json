@@ -1,0 +1,83 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-18T08:55:00.846Z",
+        "line": 2,
+        "name": "Parabank customer form error validation",
+        "description": "",
+        "id": "parabank-customer-form-validation;parabank-customer-form-error-validation",
+        "after": [
+          {
+            "result": {
+              "duration": 1199000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinations.ParabankHomePageSteps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16687000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on parabank home page",
+            "match": {
+              "location": "stepdefinations.ParabankHomePageSteps.user_is_on_home_page_of_parabank()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2920000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user clicks on contact button",
+            "match": {
+              "location": "stepdefinations.ParabankHomePageSteps.user_clicks_on_contact_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2527000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter customer form",
+            "match": {
+              "location": "stepdefinations.ParabankHomePageSteps.user_enter_customer_form()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user can see the error",
+            "match": {
+              "location": "stepdefinations.ParabankHomePageSteps.user_can_see_error()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Parabank customer form validation",
+    "description": "",
+    "id": "parabank-customer-form-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/ParabankCustomerForm.feature",
+    "tags": []
+  }
+]
