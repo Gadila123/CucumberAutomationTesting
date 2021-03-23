@@ -3,221 +3,81 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-02-28T10:25:10.091Z",
-        "line": 17,
-        "name": "Login Test Scenario",
+        "start_timestamp": "2021-03-18T08:55:00.846Z",
+        "line": 2,
+        "name": "Parabank customer form error validation",
         "description": "",
-        "id": "login-feature;login-test-scenario;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
+        "id": "parabank-customer-form-validation;parabank-customer-form-error-validation",
+        "after": [
           {
             "result": {
-              "duration": 10542000000,
+              "duration": 1199000000,
               "status": "passed"
             },
-            "line": 6,
-            "name": "user is already on Login Page",
             "match": {
-              "location": "stepdefinations.LoginStepDefination.user_is_already_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 14000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "title of login page is QA Fake",
-            "match": {
-              "location": "stepdefinations.LoginStepDefination.title_of_login_page_is_qa_fake()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1201000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enters \"admin\" and \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cnlhQHNraWxsZW56YS5jb20iLCJpYXQiOjE2MTEzMTc2Njh9.HVMcJZZJh8_EAhB_mcSeGLfZZarE5ZgnEgbbAxSu99g\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "admin",
-                  "offset": 13
-                },
-                {
-                  "val": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cnlhQHNraWxsZW56YS5jb20iLCJpYXQiOjE2MTEzMTc2Njh9.HVMcJZZJh8_EAhB_mcSeGLfZZarE5ZgnEgbbAxSu99g",
-                  "offset": 25
-                }
-              ],
-              "location": "stepdefinations.LoginStepDefination.user_enters_and(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 97000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user checked rember me",
-            "match": {
-              "location": "stepdefinations.LoginStepDefination.user_checked_rember_me()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 117000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user clicks on login button",
-            "match": {
-              "location": "stepdefinations.LoginStepDefination.user_clicks_on_login_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3114000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user get the secret string on home screen",
-            "match": {
-              "location": "stepdefinations.LoginStepDefination.user_get_the_secret_string_on_home_screen()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 801000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "Close the browser",
-            "match": {
-              "location": "stepdefinations.LoginStepDefination.close_the_browser()"
-            },
-            "keyword": "Then "
+              "location": "stepdefinations.ParabankHomePageSteps.teardown()"
+            }
           }
-        ]
-      },
-      {
-        "start_timestamp": "2021-02-28T10:25:26.227Z",
-        "line": 18,
-        "name": "Login Test Scenario",
-        "description": "",
-        "id": "login-feature;login-test-scenario;;3",
+        ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 9001000000,
+              "duration": 16687000000,
               "status": "passed"
             },
-            "line": 6,
-            "name": "user is already on Login Page",
+            "line": 3,
+            "name": "user is on parabank home page",
             "match": {
-              "location": "stepdefinations.LoginStepDefination.user_is_already_on_login_page()"
+              "location": "stepdefinations.ParabankHomePageSteps.user_is_on_home_page_of_parabank()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 2920000000,
               "status": "passed"
             },
-            "line": 7,
-            "name": "title of login page is QA Fake",
+            "line": 4,
+            "name": "user clicks on contact button",
             "match": {
-              "location": "stepdefinations.LoginStepDefination.title_of_login_page_is_qa_fake()"
+              "location": "stepdefinations.ParabankHomePageSteps.user_clicks_on_contact_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1038000000,
+              "duration": 2527000000,
               "status": "passed"
             },
-            "line": 8,
-            "name": "user enters \"admin\" and \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cnlhQHNraWxsZW56YS5jb20iLCJpYXQiOjE2MTEzMTc2Njh9.HVMcJZZJh8_EAhB_mcSeGLfZZarE5ZgnEgbbAxSu99g\"",
+            "line": 5,
+            "name": "user enter customer form",
             "match": {
-              "arguments": [
-                {
-                  "val": "admin",
-                  "offset": 13
-                },
-                {
-                  "val": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cnlhQHNraWxsZW56YS5jb20iLCJpYXQiOjE2MTEzMTc2Njh9.HVMcJZZJh8_EAhB_mcSeGLfZZarE5ZgnEgbbAxSu99g",
-                  "offset": 25
-                }
-              ],
-              "location": "stepdefinations.LoginStepDefination.user_enters_and(java.lang.String,java.lang.String)"
+              "location": "stepdefinations.ParabankHomePageSteps.user_enter_customer_form()"
             },
-            "keyword": "Then "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 103000000,
+              "duration": 62000000,
               "status": "passed"
             },
-            "line": 9,
-            "name": "user checked rember me",
+            "line": 6,
+            "name": "user can see the error",
             "match": {
-              "location": "stepdefinations.LoginStepDefination.user_checked_rember_me()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 116000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user clicks on login button",
-            "match": {
-              "location": "stepdefinations.LoginStepDefination.user_clicks_on_login_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3068000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user get the secret string on home screen",
-            "match": {
-              "location": "stepdefinations.LoginStepDefination.user_get_the_secret_string_on_home_screen()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 927000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "Close the browser",
-            "match": {
-              "location": "stepdefinations.LoginStepDefination.close_the_browser()"
+              "location": "stepdefinations.ParabankHomePageSteps.user_can_see_error()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Login Feature",
+    "name": "Parabank customer form validation",
     "description": "",
-    "id": "login-feature",
+    "id": "parabank-customer-form-validation",
     "keyword": "Feature",
-    "uri": "file:src/test/java/features/Loginfeature.feature",
+    "uri": "file:src/test/java/features/ParabankCustomerForm.feature",
     "tags": []
   }
 ]

@@ -3,7 +3,7 @@ package stepdefinations;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import com.cucumber.listener.Reporter;
+
 
 import Pages.ParabankHomePage;
 import io.cucumber.java.After;
@@ -20,7 +20,7 @@ public class ParabankHomePageSteps {
 	@Given("user is on parabank home page")
 	public void user_is_on_home_page_of_parabank() {
 		System.setProperty("webdriver.chrome.driver",
-				"G:\\All Softwares\\ChromeDriver's\\chromedriver_87\\chromedriver.exe");
+				"G:\\All Softwares\\ChromeDriver's\\chromedriver_89\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get(baseURL);
 	}
@@ -46,9 +46,6 @@ public class ParabankHomePageSteps {
 
 	@After
 	public void teardown() {
-
-		
-
 		driver.quit();
 	}
 

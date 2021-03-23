@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -19,8 +19,9 @@ public class LoginStepDefination {
 
 	@Given("^user is already on Login Page$")
 	public void user_is_already_on_login_page() {
+	
 		System.setProperty("webdriver.chrome.driver",
-				"G:\\All Softwares\\ChromeDriver's\\chromedriver_87\\chromedriver.exe");
+				"G:\\All Softwares\\ChromeDriver's\\chromedriver_89\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get(baseURL);
 	}
@@ -63,7 +64,7 @@ public class LoginStepDefination {
 
 	@Then("user get the secret string on home screen")
 	public void user_get_the_secret_string_on_home_screen() {
-		
+
 		try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
@@ -79,6 +80,5 @@ public class LoginStepDefination {
 		// Write code here that turns the phrase above into concrete actions
 		driver.quit();
 	}
-	
 
 }
