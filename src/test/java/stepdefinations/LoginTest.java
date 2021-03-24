@@ -44,7 +44,7 @@ public class LoginTest {
 		// Write code here that turns the phrase above into concrete actions
 		System.out.println(driver.getCurrentUrl());
 		driver.quit();
-		driver.close();
+		System.out.println("devlocal2");
 	}
 
 }
